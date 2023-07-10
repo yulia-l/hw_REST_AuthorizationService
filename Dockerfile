@@ -6,7 +6,7 @@ ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk
 
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
 
-EXPOSE 8081
+EXPOSE 8080
 
 ADD target/authorizationService-1.0-SNAPSHOT.jar myapp.jar
 
